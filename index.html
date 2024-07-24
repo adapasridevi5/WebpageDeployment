@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 21st Birthday!</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('confetti.gif') repeat;
+            background-size: cover;
+            overflow: hidden;
+            position: relative;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .message h1 {
+            font-size: 3em;
+            color: lemonchiffon;
+            margin-bottom: 0.5em;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            border-radius: 3px;
+        }
+
+        .animated-image {
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+
+        .animated-image:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1>Happy 21st Birthday Tejaluuuu!&#128536;</h1><br>
+        </div>
+        <div class="images">
+            <img src="image(2).jpg" alt="Celebration 2" class="animated-image">
+        </div>
+    </div>
+</body>
+</html>
